@@ -1,0 +1,16 @@
+:root {
+  /* Fundo e texto principal */
+  --cor-fundo: #121212; /* fundo escuro do site */
+  --cor-texto-principal: #FFFFFF; /* branco para textos principais */
+  --cor-texto-secundario: #C0C0C0; /* cinza claro para textos secundários */
+
+  /* Destaques e botões */
+  --cor-destaque: #C7FF00; /* verde-limão usado nos botões e hover do menu */
+  --cor-borda-destaque: #D4FF33; /* variação mais clara para detalhes de borda */
+
+  /* Cards de plano */
+  --cor-card-fundo: #1E1E1E; /* fundo dos cards */
+  --cor-card-titulo: #FFFFFF; /* título dos cards */
+  --cor-card-preco: #FFFFFF; /* preço dos planos */
+  --cor-card-lista: #C0C0C0; /* itens da lista do plano */
+}
