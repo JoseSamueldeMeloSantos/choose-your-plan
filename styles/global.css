@@ -1,3 +1,51 @@
-@import "theme.css";
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-card-fundo) ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header h1 {
+    color: var(--cor-texto-secundario);
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--cor-texto-secundario);
+    background-color: var(--cor-destaque);
+}
 
 
+:root {
+  /* Fundo e texto principal */
+  --cor-fundo: #121212; /* fundo escuro do site */
+  --cor-texto-principal: #FFFFFF; /* branco para textos principais */
+  --cor-texto-secundario: #C0C0C0; /* cinza claro para textos secundários */
+
+  /* Destaques e botões */
+  --cor-destaque: #C7FF00; /* verde-limão usado nos botões e hover do menu */
+  --cor-borda-destaque: #D4FF33; /* variação mais clara para detalhes de borda */
+
+  /* Cards de plano */
+  --cor-card-fundo: #1E1E1E; /* fundo dos cards */
+  --cor-card-titulo: #FFFFFF; /* título dos cards */
+  --cor-card-preco: #FFFFFF; /* preço dos planos */
+  --cor-card-lista: #C0C0C0; /* itens da lista do plano */
+}
