@@ -2,6 +2,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 85vw;
     margin: auto;
+    /* background-color: var(--cor-fundo); */
 }
 
 
@@ -41,6 +42,14 @@ body {
     color: var(--cor-fundo);
 }
 
+
+.plans-title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* color: var(--cor-texto-principal); */
+}
 
 
 
