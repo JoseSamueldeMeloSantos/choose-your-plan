@@ -2,7 +2,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 85vw;
     margin: auto;
-    /* background-color: var(--cor-fundo); */
+    background-color: var(--cor-fundo);
 }
 
 
@@ -48,7 +48,71 @@ body {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    /* color: var(--cor-texto-principal); */
+    color: var(--cor-texto-principal);
+}
+
+.card {
+    width: 400px;
+    height: fit-content;
+    max-height: fit-content;
+    background-color: var(--cor-card-fundo);
+    color: var(--cor-card-preco);
+    padding: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; /* organiza o conteúdo na vertical */
+    align-items: flex-start; /* mantém tudo alinhado à esquerda */
+    justify-content: space-between; /* separa texto e botão */
+}
+
+.card-maininfo__title {
+    width: 193%;
+    border-bottom: 1px solid #C7FF00;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card-maininfo-options__list {
+    padding-left: 19px;
+}
+
+.card-maininfo-options__list li::marker {
+  color: var(--cor-destaque); 
+  font-size: 20px;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+
+.card-maininfo-options__price {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.card-botton {
+    text-decoration: none;
+    margin: 200px auto 10px auto ;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.card-botton:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+    border:  var(--cor-borda-destaque) solid 1px;
+    background-color: var(--cor-card-fundo);
+    color: var(--cor-borda-destaque);
 }
 
 
