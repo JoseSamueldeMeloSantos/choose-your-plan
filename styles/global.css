@@ -81,11 +81,11 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     margin: 0;
+    flex-grow: 1;
 }
 
 .card-maininfo-options__list {
     padding-left: 19px;
-    flex-grow: 1;
 }
 
 .card-maininfo-options__list li::marker {
